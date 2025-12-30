@@ -56,34 +56,48 @@ section{padding:55px 0}
 
 .bg-pink {
   background: #fde9ee;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .hero {
   text-align: center;
 }
 
+/* TÍTULO */
 .hero h1 {
   font-size: 48px;
   font-weight: 800;
   color: #8b2c45;
-  margin-bottom: 24px;
-  line-height: 1.15;
+  margin-bottom: 20px;   /* espaço entre título e subtítulo */
+  line-height: 1.05;
 }
 
+/* SUBTÍTULO */
 .hero h2 {
   font-size: 36px;
   font-weight: 700;
   color: #8b2c45;
-  margin-bottom: 32px;
-  line-height: 1.2;
+  margin-bottom: 40px;   /* espaço MAIOR até o h3 */
+  line-height: 1.15;
 }
 
-.hero-text {
+/* PRIMEIRO TEXTO */
+.hero-desc {
   font-size: 20px;
+  font-weight: 600;
   color: #8b2c45;
-  max-width: 820px;
-  margin: 0 auto 40px;
+  max-width: 900px;
+  margin: 0 auto 32px;   /* separação do próximo h3 */
+  line-height: 1.5;
+}
+
+/* TEXTOS SEGUINTES */
+.hero-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #8b2c45;
+  max-width: 900px;
+  margin: 0 auto 24px;   /* ≈ 1 linha de espaço */
   line-height: 1.6;
 }
 
@@ -110,35 +124,29 @@ section{padding:55px 0}
 <body>
 
 
-<!-- BLOCO 1 – HERO -->
+  <!-- BLOCO 1 – HERO -->
 <section class="bg-pink hero">
   <div class="container">
-    
+
     <h1>Entenda a Menopausa</h1>
 
-   <h2>Saiba Mais Sobre a Menopausa e Seu Bem-Estar</h2>
-    
+    <h2>Saiba Mais Sobre a Menopausa e Seu Bem-Estar</h2>
 
-    <h3 class="hero-text">
+    <h3 class="hero-desc">
       Um guia informativo para mulheres que desejam entender melhor as mudanças do corpo e viver essa fase com mais consciência.
     </h3>
 
-    <h3 class="hero-strong">
+    <h3 class="hero-text">
       Se você chegou até aqui buscando entender sintomas como ondas de calor, alterações no sono ou mudanças no humor, saiba que essas dúvidas são comuns nessa fase.
-      <br><br>
+    </h3>
+
+    <h3 class="hero-text">
       Este guia explica de forma clara o que realmente acontece.
     </h3>
 
-    <h3 class="hero-cta-text">
-      Assista agora e veja como este guia ajuda mulheres a entenderem melhor essa fase.
-    </h3>
-
-    <div class="video"><!-- vídeo principal --></div>
-
-    <a class="btn" href="#">Quero entender melhor essa fase</a>
-
   </div>
 </section>
+
 
 
 
@@ -310,6 +318,7 @@ Este guia foi criado para ajudar você a compreender essa transição com mais c
 
 </body>
 </html>
+
 
 
 
